@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>matrix-parent-dependencies</artifactId>
+        <groupId>com.le.matrixframework</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>matrix-starter-parent</artifactId>
+    <packaging>pom</packaging>
+
+    <name>matrix-starter-parent</name>
+    <url>http://maven.apache.org</url>
+
+    <description>
+        对外统一管理框架依赖
+    </description>
+    <properties>
+        <matrix-starter-web>1.0-SNAPSHOT</matrix-starter-web>
+        <matrix-starter-service>1.0-SNAPSHOT</matrix-starter-service>
+        <matrix-facade>1.0-SNAPSHOT</matrix-facade>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.le.matrixframework</groupId>
+                <artifactId>matrix-parent-starter-web</artifactId>
+                <version>${matrix-starter-web}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.le.matrixframework</groupId>
+                <artifactId>matrix-parent-starter-service</artifactId>
+                <version>${matrix-starter-service}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.le.matrixframework</groupId>
+                <artifactId>matrix-parent-facade</artifactId>
+                <version>${matrix-facade}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
