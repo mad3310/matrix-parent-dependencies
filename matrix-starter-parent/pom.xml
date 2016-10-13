@@ -26,17 +26,17 @@
         <dependencies>
             <dependency>
                 <groupId>com.le.matrixframework</groupId>
-                <artifactId>matrix-parent-starter-web</artifactId>
+                <artifactId>matrix-starter-web</artifactId>
                 <version>${matrix-starter-web}</version>
             </dependency>
             <dependency>
                 <groupId>com.le.matrixframework</groupId>
-                <artifactId>matrix-parent-starter-service</artifactId>
+                <artifactId>matrix-starter-service</artifactId>
                 <version>${matrix-starter-service}</version>
             </dependency>
             <dependency>
                 <groupId>com.le.matrixframework</groupId>
-                <artifactId>matrix-parent-facade</artifactId>
+                <artifactId>matrix-facade</artifactId>
                 <version>${matrix-facade}</version>
             </dependency>
         </dependencies>
