@@ -261,5 +261,17 @@
             <artifactId>httpclient</artifactId>
         </dependency>
         <!--百度disconf end-->
+        <!--matrix common begin-->
+        <dependency>
+            <groupId>com.le.matrixframework</groupId>
+            <artifactId>matrix-common-core</artifactId>
+        </dependency>
+        <!--matrix common end-->
+        <!--matrix common service begin-->
+        <dependency>
+            <groupId>com.le.matrixframework</groupId>
+            <artifactId>matrix-common-service</artifactId>
+        </dependency>
+        <!--matrix common service end-->
     </dependencies>
 </project>

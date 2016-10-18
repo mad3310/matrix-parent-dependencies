@@ -50,5 +50,11 @@
             <artifactId>javax.ws.rs-api</artifactId>
         </dependency>
         <!--Dubbox end-->
+        <!--matrix common begin-->
+        <dependency>
+            <groupId>com.le.matrixframework</groupId>
+            <artifactId>matrix-common-core</artifactId>
+        </dependency>
+        <!--matrix common end-->
     </dependencies>
 </project>

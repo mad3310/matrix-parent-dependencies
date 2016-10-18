@@ -264,5 +264,18 @@
             <artifactId>httpclient</artifactId>
         </dependency>
         <!--百度disconf end-->
+        <!--matrix common begin-->
+        <dependency>
+            <groupId>com.le.matrixframework</groupId>
+            <artifactId>matrix-common-core</artifactId>
+        </dependency>
+        <!--matrix common end-->
+        <!--matrix common web begin-->
+        <dependency>
+            <groupId>com.le.matrixframework</groupId>
+            <artifactId>matrix-common-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--matrix common web end-->
     </dependencies>
 </project>

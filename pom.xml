@@ -458,6 +458,27 @@
         <version>4.5.1</version>
       </dependency>
       <!--百度disconf end-->
+      <!--matrix common begin-->
+      <dependency>
+        <groupId>com.le.matrixframework</groupId>
+        <artifactId>matrix-common-core</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <!--matrix common end-->
+      <!--matrix common service begin-->
+      <dependency>
+        <groupId>com.le.matrixframework</groupId>
+        <artifactId>matrix-common-service</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <!--matrix common service end-->
+      <!--matrix common web begin-->
+      <dependency>
+        <groupId>com.le.matrixframework</groupId>
+        <artifactId>matrix-common-web</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
+      <!--matrix common web end-->
     </dependencies>
 
   </dependencyManagement>
